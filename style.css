@@ -52,6 +52,10 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.contact-link:hover,
+.project-link:hover {
+  color: #fff;
+}
 
 .about-link {
   color: var(--primary-color);
@@ -93,9 +97,7 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
-.mt-5 {
-  margin-top: 3rem !important;
-}
+
 @media (max-width: 576px) {
   .project-link {
     display: block;
